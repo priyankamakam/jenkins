@@ -26,6 +26,7 @@ public class Gmail {
 	public void beforeTest() {	
 		System.setProperty("webdriver.chrome.driver", "C:/Users/rajesh/Downloads/chromedriver_win32/chromedriver.exe");
 		driver = new ChromeDriver();  
+		//This is a test
 	}		
 	@AfterTest
 	public void afterTest() {
